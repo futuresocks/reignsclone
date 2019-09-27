@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const demandDiv = document.querySelector('#demand-container')
 
   const demands = {
-    church: 50,
+    editor: 50,
     military: 50,
     people: 50,
     bank: 50
@@ -33,8 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const Effect = function(affected, value){
-    this.affected = affected;
-    this.value = value;
+    this.church = church;
+    this.military = military;
+    this.people = people;
+    this.military = military;
   }
 
   const Question = function(issue, option1, option2){
